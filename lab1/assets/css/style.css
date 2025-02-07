@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+main {
+    flex-grow: 1;
+    display: grid;
+    text-align: center;
+    margin-top: 3%;
+}
+
+ul{
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3em;
+    margin-left: 0.5%;
+}
+
+a:hover {
+    opacity: .85;
+}
+
+li{
+    display: inline;
+   
+}
+.logout button{
+    border: none;
+    font-size: 1.3em;
+    background-color: #ffdfdd;
+}
